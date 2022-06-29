@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  
   viewportWidth: 1920,
   viewportHeight: 1080,
 
@@ -8,5 +9,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl: "https://www.links.hr/hr",
   },
 });
